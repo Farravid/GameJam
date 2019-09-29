@@ -68,7 +68,7 @@ public class TalkNPC : MonoBehaviour
         if (hablado == false) {
             hablado = true;
             IsometricPlayerMovementController.movementSpeed = 0f;
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(6);
             IsometricPlayerMovementController.movementSpeed = 2.8f;
         }
     }
