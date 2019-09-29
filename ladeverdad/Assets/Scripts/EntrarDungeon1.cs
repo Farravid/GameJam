@@ -9,6 +9,8 @@ public class EntrarDungeon1 : MonoBehaviour
 {
     public Text interact;
     private bool dentro;
+    public Image black;
+    public Animator anim;
     //public GameObject canvashostia;
     private void Start()
     {
@@ -28,7 +30,7 @@ public class EntrarDungeon1 : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.E)&&dentro)
         {
-            SceneManager.LoadScene("Dungeon");
+            StartCoroutine(Fading());
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -48,5 +50,10 @@ public class EntrarDungeon1 : MonoBehaviour
             dentro = false;
         }
     }
-
+    IEnumerator Fading()
+    {
+        anim.SetBool("anim", true);
+        yield return new WaitUntil(() => black.color.a == 1);
+        SceneManager.LoadScene("Dungeon");
+    }
 }
