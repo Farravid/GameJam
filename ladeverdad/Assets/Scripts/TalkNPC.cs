@@ -10,7 +10,7 @@ public class TalkNPC : MonoBehaviour
     public static bool npcIsTalking = false;
     public bool estaEnElArea = false;
     public Text textoFlotante;
-
+    private bool hablado;
     //public CharacterController control;
 
 
@@ -19,6 +19,7 @@ public class TalkNPC : MonoBehaviour
         textUI.gameObject.SetActive(false);
         textoFlotante.gameObject.SetActive(false);
         estaEnElArea = false;
+        hablado = false;
     }
 
     // Update is called once per frame
@@ -27,7 +28,7 @@ public class TalkNPC : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F) && estaEnElArea)
         {
             textoFlotante.gameObject.SetActive(false);
-            npcTalk();
+            StartCoroutine(npcTalk());
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -60,10 +61,16 @@ public class TalkNPC : MonoBehaviour
         npcIsTalking = false;
 
     }
-    void npcTalk()
+    public IEnumerator npcTalk()
     {
         textUI.gameObject.SetActive(true);
         //Time.timeScale = 0f;
         npcIsTalking = true;
+        if (hablado == false) {
+            hablado = true;
+            IsometricPlayerMovementController.movementSpeed = 0f;
+            yield return new WaitForSeconds(5);
+            IsometricPlayerMovementController.movementSpeed = 3f;
+        }
     }
 }
