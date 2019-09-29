@@ -5618,7 +5618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 863836637}
 --- !u!1 &880123274 stripped
 GameObject:
