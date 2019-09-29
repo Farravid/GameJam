@@ -21,10 +21,11 @@ public class ApareceIcono : MonoBehaviour
     {
         if (dentro)
         {
+            Debug.Log("Estoy esfinge");
             exclama.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))
             {
-               
+                Debug.Log("Estoy esfinge");
                 texto.gameObject.SetActive(true);
             }
         }
