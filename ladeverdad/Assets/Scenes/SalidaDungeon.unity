@@ -10554,9 +10554,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ey, no te habia visto durante todo el recreo Hope. Supongo que escuchaste
-    el tiembre. Vamos rapido a la clase de mates antes de que la se\xF1o nos eche
-    la bronca."
+  m_Text: Ey, no te habia visto durante todo el recreo Hope. Vamos rapido a la clase
+    de mates antes de que la profe nos eche la bronca.
 --- !u!222 &2046287826
 CanvasRenderer:
   m_ObjectHideFlags: 0

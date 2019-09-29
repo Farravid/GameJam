@@ -27,7 +27,7 @@ public class Intro : MonoBehaviour
 
     public IEnumerator espera()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(3);
         bolaText.gameObject.SetActive(true);
         bruja.SetActive(true);
         
