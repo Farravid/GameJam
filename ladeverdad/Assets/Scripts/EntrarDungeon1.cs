@@ -30,7 +30,7 @@ public class EntrarDungeon1 : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.E)&&dentro)
         {
-            StartCoroutine(Fading());
+            SceneManager.LoadScene("Dungeon");
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
