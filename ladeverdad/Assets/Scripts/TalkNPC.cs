@@ -25,7 +25,7 @@ public class TalkNPC : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && estaEnElArea)
+        if (Input.GetKeyDown(KeyCode.E) && estaEnElArea)
         {
             textoFlotante.gameObject.SetActive(false);
             StartCoroutine(npcTalk());
