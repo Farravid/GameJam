@@ -1,0 +1,27 @@
+﻿Menu: mover background
+
+· Puentes 
+
+ Poner pausa - caja
+
+Musica (Efectos de sonido)
+
+Decorar las 4 islas
+
+Decorar la mazmorra
+
+Transiciones
+
+Hacer que cuando mueran los bichos de la mazmorra aparezcas en Ottolandia
+
+Dialogos
+
+NPC
+
+Imágenes para la introducción
+
+Animar el mar1	1
+
+Hacer una imagen para el menú principal 
+
+49.21  -18.83

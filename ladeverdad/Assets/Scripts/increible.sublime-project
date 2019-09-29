@@ -1,0 +1,17 @@
+{
+    "folders":
+    [
+        {
+            "file_exclude_patterns":
+            [
+                "*.meta",
+                "*.sublime-project"
+            ],
+            "folder_exclude_patterns":
+            [
+                "node_modules"
+            ],
+            "path": "."
+        }
+    ]
+}
