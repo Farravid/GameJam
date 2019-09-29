@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerControllerDungeon : MonoBehaviour
 {
@@ -28,12 +27,6 @@ public class PlayerControllerDungeon : MonoBehaviour
         if (Input.GetKeyDown("a") || Input.GetKeyDown("left"))
         {
             sp.flipX = true;
-        }
-
-        if (Input.GetKeyDown("r"))
-        {
-            Enemy.listo = true;
-            SceneManager.LoadScene("SampleScene");
         }
 
     }
