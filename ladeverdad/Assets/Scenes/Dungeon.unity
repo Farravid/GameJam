@@ -603,9 +603,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dafd2bce8ce24e419fdc541828b8afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_Name: 
-  m_Name: 
 --- !u!114 &292540143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -701,7 +698,7 @@ MonoBehaviour:
   hpEffectImage: {fileID: 1438944199}
   hp: 50
   maxHp: 50
-  hurtSpeed: 0.005
+  hurtSpeed: 0.002
 --- !u!58 &342809467
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -732,8 +729,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wayPoint01: {fileID: 1636958803}
   wayPoint02: {fileID: 1925819158}
-  attackRange: 0.5
-  moveSpeed: 0.5
+  attackRange: 0.3
+  moveSpeed: 0.3
   projectile: {fileID: 1155449280762389500, guid: 4e5e8b428bafbf54498e914cccfd7344,
     type: 3}
 --- !u!212 &342809469
@@ -1884,8 +1881,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wayPoint01: {fileID: 242274964}
   wayPoint02: {fileID: 2079334159}
-  attackRange: 0.5
-  moveSpeed: 0.5
+  attackRange: 0.3
+  moveSpeed: 0.3
   projectile: {fileID: 1155449280762389500, guid: 4e5e8b428bafbf54498e914cccfd7344,
     type: 3}
 --- !u!114 &660894380
@@ -1904,7 +1901,7 @@ MonoBehaviour:
   hpEffectImage: {fileID: 673908483}
   hp: 50
   maxHp: 50
-  hurtSpeed: 0.005
+  hurtSpeed: 0.002
 --- !u!58 &660894381
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17977,7 +17974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82340fdf8f37e1e4c9c8e222eaa4dc26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 0.6
 --- !u!70 &732002824
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -22593,7 +22590,7 @@ MonoBehaviour:
   hpEffectImage: {fileID: 1749037538}
   hp: 50
   maxHp: 50
-  hurtSpeed: 0.005
+  hurtSpeed: 0.002
 --- !u!58 &1548285783
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22624,8 +22621,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wayPoint01: {fileID: 745828191}
   wayPoint02: {fileID: 856630254}
-  attackRange: 0.5
-  moveSpeed: 0.5
+  attackRange: 0.3
+  moveSpeed: 0.3
   projectile: {fileID: 1155449280762389500, guid: 4e5e8b428bafbf54498e914cccfd7344,
     type: 3}
 --- !u!212 &1548285785
@@ -22839,7 +22836,7 @@ MonoBehaviour:
   hpEffectImage: {fileID: 1493239869}
   hp: 50
   maxHp: 50
-  hurtSpeed: 0.005
+  hurtSpeed: 0.002
 --- !u!114 &1590490544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22854,8 +22851,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wayPoint01: {fileID: 1602977791}
   wayPoint02: {fileID: 1239736728}
-  attackRange: 0.5
-  moveSpeed: 0.5
+  attackRange: 0.3
+  moveSpeed: 0.3
   projectile: {fileID: 1155449280762389500, guid: 4e5e8b428bafbf54498e914cccfd7344,
     type: 3}
 --- !u!212 &1590490545
