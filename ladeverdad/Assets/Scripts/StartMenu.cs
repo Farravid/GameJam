@@ -10,7 +10,7 @@ public class StartMenu : MonoBehaviour
     //public Animator anim;
     public void PlayGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Introduccion");
     }
     public void QuitGame()
     {
