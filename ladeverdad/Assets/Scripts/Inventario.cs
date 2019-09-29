@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class Inventario : MonoBehaviour
 {
-	public static bool tengoLlave = false;
-	public static bool tengoPocion = false;
+    public static bool tengoLlave;
+    public static bool tengoPocion;
 	//poner todos los recolectables
 
 	public GameObject llave;
 	public GameObject pocion;
 
 	private void Start(){
+        tengoLlave = false;
+        tengoPocion = false;
 		llave.SetActive(false);
 		pocion.SetActive(false);
 	}
