@@ -10,7 +10,7 @@ public class TalkNPC : MonoBehaviour
     public static bool npcIsTalking = false;
     public bool estaEnElArea = false;
     public Text textoFlotante;
-    private bool hablado;
+    public static bool hablado;
     //public CharacterController control;
 
 
