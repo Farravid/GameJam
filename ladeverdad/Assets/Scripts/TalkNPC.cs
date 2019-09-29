@@ -49,7 +49,6 @@ public class TalkNPC : MonoBehaviour
             textUI.gameObject.SetActive(false);
             npcIsTalking = false;
             estaEnElArea = false;
-            Debug.Log("BB");
             textoFlotante.gameObject.SetActive(false);
         }
     }
@@ -70,7 +69,7 @@ public class TalkNPC : MonoBehaviour
             hablado = true;
             IsometricPlayerMovementController.movementSpeed = 0f;
             yield return new WaitForSeconds(5);
-            IsometricPlayerMovementController.movementSpeed = 3f;
+            IsometricPlayerMovementController.movementSpeed = 2.8f;
         }
     }
 }
