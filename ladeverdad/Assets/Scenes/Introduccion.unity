@@ -268,14 +268,14 @@ RectTransform:
   m_GameObject: {fileID: 385623758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.395629, y: 2.2847843, z: 1.395629}
+  m_LocalScale: {x: 1.990167, y: 3.2581024, z: 1.990167}
   m_Children: []
   m_Father: {fileID: 973170929}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -158, y: 102}
+  m_AnchoredPosition: {x: -220, y: 63}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &438791568
@@ -330,7 +330,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xA1BOLAAA DE FUEGOOO!"
+  m_Text: "\xA1NO ME PILLAREIS!"
 --- !u!114 &438791570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,8 +370,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 109, y: 88}
-  m_SizeDelta: {x: 300.9, y: 31.9}
+  m_AnchoredPosition: {x: 51.91, y: 88}
+  m_SizeDelta: {x: 211.16, y: 31.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &446693712
 GameObject:
