@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 33531075}
 --- !u!1001 &56166804
 PrefabInstance:
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 91882590}
 --- !u!1 &94680684
 GameObject:
@@ -3013,7 +3013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 148811471}
 --- !u!1 &190607663 stripped
 GameObject:
@@ -3854,7 +3854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 398170676}
 --- !u!1001 &398294111
 PrefabInstance:
@@ -4033,7 +4033,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 827770155}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f1d8d7eeeac8244aa38373fdb714c5f, type: 3}
 --- !u!1 &415316508
@@ -4748,7 +4748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 482601094}
 --- !u!1 &482969299 stripped
 GameObject:
@@ -4774,7 +4774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 482969299}
 --- !u!1001 &508471811
 PrefabInstance:
@@ -5134,7 +5134,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 827770155}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f1d8d7eeeac8244aa38373fdb714c5f, type: 3}
 --- !u!1001 &652259861
@@ -5208,7 +5208,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 827770155}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f1d8d7eeeac8244aa38373fdb714c5f, type: 3}
 --- !u!1001 &677704665
@@ -5448,7 +5448,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 827770155}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f1d8d7eeeac8244aa38373fdb714c5f, type: 3}
 --- !u!1001 &827134968
@@ -5592,7 +5592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 851586844}
 --- !u!1 &863836637 stripped
 GameObject:
@@ -5618,7 +5618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 863836637}
 --- !u!1 &880123274 stripped
 GameObject:
@@ -5886,7 +5886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 890035233}
 --- !u!1001 &890956419
 PrefabInstance:
@@ -7350,7 +7350,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 827770155}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f1d8d7eeeac8244aa38373fdb714c5f, type: 3}
 --- !u!1001 &1195853854
@@ -7600,7 +7600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 1251493617}
 --- !u!1 &1261960382 stripped
 GameObject:
@@ -19122,7 +19122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 1422560731}
 --- !u!1 &1470103360 stripped
 GameObject:
@@ -19148,7 +19148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 1470103360}
 --- !u!1001 &1473277423
 PrefabInstance:
@@ -21184,9 +21184,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: dd71a3ed45b5ae24b986b49c9e3ae030, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.726
+  m_Volume: 0.122
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -21446,7 +21446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 1820530873}
 --- !u!1001 &1840417505
 PrefabInstance:
@@ -22222,7 +22222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 827770155}
   arbol: {fileID: 2094150970}
 --- !u!1001 &2096986665
 PrefabInstance:
@@ -22375,6 +22375,6 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 827770155}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f1d8d7eeeac8244aa38373fdb714c5f, type: 3}
