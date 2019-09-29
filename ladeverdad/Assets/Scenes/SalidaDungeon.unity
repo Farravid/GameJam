@@ -7528,20 +7528,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1118224365}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1118224368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118224367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63b166d4fde81664ab593ebd7ef42010, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1118224367}
-  arbol: {fileID: 1286045007716317955, guid: 7f1d8d7eeeac8244aa38373fdb714c5f, type: 3}
 --- !u!1 &1148112325 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6967875842100826019, guid: 7ca583182dd58f141876f68d679e5221,
