@@ -6,20 +6,20 @@ using UnityEngine.UI;
 
 public class StartMenu : MonoBehaviour
 {
-    public Image black;
-    public Animator anim;
+    //public Image black;
+    //public Animator anim;
     public void PlayGame()
     {
-      StartCoroutine(Fading());
+        SceneManager.LoadScene("SampleScene");
     }
     public void QuitGame()
     {
         Application.Quit();
     }
-    IEnumerator Fading()
+    /*IEnumerator Fading()
     {
         anim.SetBool("anim", true);
         yield return new WaitUntil(() => black.color.a == 1);
         SceneManager.LoadScene("SampleScene");
-    }
+    }*/
 }

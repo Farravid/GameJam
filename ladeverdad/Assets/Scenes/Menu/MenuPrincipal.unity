@@ -180,7 +180,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 21300000, guid: 8e0e9b60eec78104ba951683b378fb5f,
       type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 751277fbbd2e9c449aff9bc2f965da9a, type: 3}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 21300000, guid: 65699b02585219d4fa1d858b49d2cabf, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -631,8 +631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb55c39f5b1ec74e997a882320054c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  black: {fileID: 1025673594}
-  anim: {fileID: 1025673596}
 --- !u!4 &719434572
 Transform:
   m_ObjectHideFlags: 0
@@ -665,7 +663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &900353609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1254,7 +1252,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 21300000, guid: a4a9896be7942c14a8753b3072e7630a,
       type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 8f33596067a442a4886a70c3f0bdb379, type: 3}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 21300000, guid: 83b10815913fa8e4fa7f47fa0647185e, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
