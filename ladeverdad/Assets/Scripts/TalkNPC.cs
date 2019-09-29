@@ -18,6 +18,7 @@ public class TalkNPC : MonoBehaviour
     {
         textUI.gameObject.SetActive(false);
         textoFlotante.gameObject.SetActive(false);
+        estaEnElArea = false;
     }
 
     // Update is called once per frame
@@ -29,25 +30,24 @@ public class TalkNPC : MonoBehaviour
             npcTalk();
         }
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag.Equals("Player"))
+        if (collision.gameObject.transform.tag == "Player")
         {
             //CharacterController cc = collision.GetComponent<CharacterController>();
             //cc.enabled = false;
             estaEnElArea = true;
             textoFlotante.gameObject.SetActive(true);
-            Debug.Log("AA");
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag.Equals("Player"))
+        if (collision.gameObject.transform.tag == "Player")
         {
             textUI.gameObject.SetActive(false);
             npcIsTalking = false;
+            estaEnElArea = false;
             Debug.Log("BB");
             textoFlotante.gameObject.SetActive(false);
         }
